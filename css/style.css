@@ -160,11 +160,12 @@ h1 {
 .filter .filter-text {
     padding: 0 20px 0 10px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .filter:hover {
     background-color: #F2F2F2;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .filter .fa-solid:hover {
@@ -645,6 +646,7 @@ footer {
     .search-bar button {
         border-radius: 15px;
         transform: translate(-25px); /* in order to overflow input top/bottom borders */
+        border: 2px solid transparent;
     }
 
     .search-bar .fa-magnifying-glass {
@@ -801,6 +803,7 @@ footer {
     .search-bar button {
         border-radius: 15px;
         transform: translate(-25px); /* in order to overflow input top/bottom borders */
+        border: 2px solid transparent;
     }
 
     .search-bar .fa-magnifying-glass {
