@@ -410,7 +410,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    overflow: clip;
+    overflow: hidden;
     border-radius: 20px;
 }
 
@@ -573,6 +573,8 @@ footer {
     .activities-flex-container {
         flex-direction: column;
         height: 100%;
+        width: 70%;
+        margin: 0 auto;
     }
 
     .single-container, .double-container {
@@ -682,15 +684,15 @@ footer {
     } */
 
     .accommodation-results .card-flex-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .accommodation-results .accommodation-card {
-        width: 100%;
+        width: 40%;
     }
 
     .accommodation-popular .accommodation-card {
-        width: 70%;
+        width: 60%;
         height: 200px;
     }
 
@@ -722,6 +724,8 @@ footer {
     .activities-flex-container {
         flex-direction: column;
         height: 100%;
+        width: 70%;
+        margin: 0 auto;
     }
 
     .single-container, .double-container {
